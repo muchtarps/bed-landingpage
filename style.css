@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    border: 1px solid orangered;
 }
 
 body {
@@ -15,11 +16,25 @@ body {
     height: 50px;
     color: #f9faf8;
     background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 700;
+}
+.header .kanan {
+    display: flex;
+    gap: 16px;
 }
 
 .main {
     flex: 1;
     display: flex;
+    flex-direction: column;
 }
 
 .footer {
@@ -29,4 +44,44 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.part1, .part2, .part3, .part4 {
+    flex: 1;
+    padding: 16px;
+}
+
+.part1 {
+    background-color: #1f2937;
+    display: flex;
+}
+.part2 {
+}
+.part3 {
+    background-color: #e5e7eb;
+    justify-content: center;
+    align-content: center;
+}
+.part4 {
+}
+
+a {
+    text-decoration: none;
+}
+
+.header a {
+    color: #f9faf8;
+}
+
+.part1 img {
+    width: 20rem;
+    height: auto;
+}
+
+.kiri {
+    flex: 1;
+}
+
+.kanan {
+    flex: 1;
 }
