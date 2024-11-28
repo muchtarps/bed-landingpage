@@ -46,11 +46,14 @@ body {
 }
 
 /* ===== Part 1 Styles ===== */
+.part1 .kiri h1 {
+    font-size: 50px;
+}
 .part1 {
     background-color: #1f2937;
     color: #f9faf8;
     display: flex;
-    padding: 16px;
+    padding: 16px 100px;
 }
 
 .part1 .kanan {
@@ -63,6 +66,12 @@ body {
     object-fit: cover;
     padding: 10px;
     width: 35vw;
+}
+
+.part1 .kiri {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 /* ===== Part 2 Styles ===== */
@@ -140,6 +149,10 @@ body {
     display: flex;
     height: 50px;
     justify-content: center;
+}
+
+.footer p {
+    margin: 30px;
 }
 
 /* ===== Buttons ===== */
