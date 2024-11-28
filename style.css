@@ -69,9 +69,25 @@ body {
 }
 .part3 {
     background-color: #e5e7eb;
+    display: flex;
     justify-content: center;
     align-content: center;
 }
+
+.part3 .container {
+    max-width: 800px;
+}
+
+.quote{
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.penulis{
+    font-weight: 700;
+    text-align: left;
+}
+
 .part4 {
     display: flex;
     justify-content: center;
