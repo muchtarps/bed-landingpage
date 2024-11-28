@@ -60,7 +60,7 @@ body {
 
 .part1 .kanan img {
     width: 35vw;
-    height: 200px;
+    height: 300px;
     object-fit: cover;
     padding: 10px;
 }
@@ -102,14 +102,6 @@ a {
     height: auto;
 }
 
-/* .kiri {
-    flex: 1;
-}
-
-.kanan {
-    flex: 1;
-} */
-
 .title {
     font-size: 32px;
     text-align: center;
@@ -119,6 +111,7 @@ a {
     display: flex;
     justify-content: center;
     gap: 30px;
+    text-align: center;
 }
 
 .info {
@@ -141,6 +134,7 @@ button {
     font-size: 18px;
     font-weight: 600;
     padding: 5px;
+    margin: 15px 0;
     transition: all 250ms;
   }
   
@@ -162,3 +156,26 @@ button {
     color: rgba(0, 0, 0, 0.65);
     transform: translateY(0);
   }
+
+
+
+
+
+
+
+
+  @media (max-width: 768px) {
+    .part1 {
+        flex-direction: column;
+    }
+
+    .part1 .kanan img {
+        width: 100%; /* Adjust the image to take full width */
+        height: 300px; /* Maintain aspect ratio */
+    }
+
+    .part1 .kanan {
+        text-align: center; /* Center the image */
+        margin-top: 16px;
+    }
+}
