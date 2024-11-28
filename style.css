@@ -57,6 +57,7 @@ body {
     color: #f9faf8;
 }
 
+
 .part1 .kanan img {
     width: 35vw;
     height: 200px;
@@ -131,31 +132,23 @@ a {
 
 /* Button */
 button {
-    align-items: center;
     background-color: #FFFFFF;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: .25rem;
     box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
-    box-sizing: border-box;
     color: rgba(0, 0, 0, 0.85);
     cursor: pointer;
     font-size: 18px;
     font-weight: 600;
-    justify-content: center;
-    margin: 0;
     padding: 5px;
-    text-decoration: none;
     transition: all 250ms;
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
   }
   
   button:hover,
   button:focus {
     border-color: rgba(0, 0, 0, 0.15);
     box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
-    color: rgba(0, 0, 0, 0.65);
+    color: #3882f6;
   }
   
   button:hover {
