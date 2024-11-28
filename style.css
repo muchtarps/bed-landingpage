@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    border: 1px solid orangered;
+    /* border: 1px solid orangered; */
 }
 
 body {
@@ -72,6 +72,7 @@ body {
     display: flex;
     justify-content: center;
     align-content: center;
+    flex-direction: column;
 }
 
 .part3 .container {
